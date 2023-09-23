@@ -1,1 +1,27 @@
-#include <stdio.h>
+Commands Used in gdb:
+1. tui layout split
+    - I am a visual person, so seeing the code in front of me helps me better understand
+    what is going on in the code and see how it is working. Using the tui layout split
+    command gives me a visual of the code in C and also the assembly code used, so I can see
+    where I am in the code. Which leads into the next few commands.
+
+2. break main
+    - To start debugging this program, I needed to start somewhere, and since main() is the
+    only function header, we can start there. So by stating 'break main', we instantiate a break
+    in the first line of main() for use in our step by step debugging.
+
+3. run or r
+    - The next step of debugging is making sure we are running the program. We use run, or
+    just r for short, to begin execution. Because of the breakpoint we put in at main(), the
+    program will start there.
+
+4. next/nexti
+    - next is the command that will take us to the next call in the code, so that we can step
+    through the code and make sure each command is doing what we need it to do. nexti is a call
+    we can make to observe each assembly instruction abstracted by a call or function in C.
+
+5. step
+    - step is an instruction I used to step into the square call. If you just use next, then
+    the debugger will skip the steps that are done within the function call. Utilizing step
+    can be helpful to ensure the internals of a function are functioning, no pun intended, as
+    expected.

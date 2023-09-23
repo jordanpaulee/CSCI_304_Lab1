@@ -7,7 +7,7 @@ int main(void){
         i = square(i);
     }
 
-    printf(("%d\n", i));
+    printf("%d\n", i);
     return (EXIT_SUCCESS);
 }
 int square(int x){
