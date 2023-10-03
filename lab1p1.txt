@@ -1,9 +1,9 @@
 Commands Used in gdb:
-1. tui layout split
+1. tui layout split / layout split / tui new-layout split {-horizontal src 1 asm 1} 2 status 0 cmd 1
     - I am a visual person, so seeing the code in front of me helps me better understand
     what is going on in the code and see how it is working. Using the tui layout split
     command gives me a visual of the code in C and also the assembly code used, so I can see
-    where I am in the code. Which leads into the next few commands.
+    where I am in the code. Depending on your terminal, the tui commands can change.
 
 2. break main
     - To start debugging this program, I needed to start somewhere, and since main() is the
