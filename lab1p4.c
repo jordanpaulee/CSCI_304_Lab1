@@ -189,5 +189,5 @@ void displayLinkedList(struct Linkedlist LL){
         indexPtr->next = indexPtr->next->next;
     }
 
-    printf("%s, %s", indexPtr -> data, indexPtr->next -> data);
+    printf("%s, %s \n", indexPtr -> data, indexPtr->next -> data);
 };
