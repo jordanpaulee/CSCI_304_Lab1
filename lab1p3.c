@@ -9,13 +9,35 @@ void decoding(char *str){
     end = NULL;
 
     while(1){
-        if (isalpha(*ptr)){ //CHECK THIS ***********
-            //change to upper case
+        if (isalpha(*ptr)){
+            //change to uppercase
+            if (islower(*ptr)){
+                *ptr = toupper(*ptr);
+            }
         } else{
             //set begin and end
+            end = ptr - 1;
+
             //reverse the word
+            while (begin < end) {
+                char temp = *begin;
+                *begin = *end;
+                *end = temp;
+                begin++;
+                end--;
+            }
+
+            if(*ptr == '\0' || *ptr == '\n'){
+                break;
+            }
+            else{
+                *ptr = ' ';
+            }
+            begin = ptr+1;
+            end = NULL;
             //break the loop
         }
+        ptr++;
     }
 }
 

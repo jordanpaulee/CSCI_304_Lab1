@@ -1,7 +1,8 @@
-# CSCI 304 Lab 1
+CSCI 304 Lab 1
 Lab 1 Project in C for CSCI304 - Computer Organization
 
-### ! USING MY 4 SLIP DAYS !
+! USING MY 4 SLIP DAYS !
+- Emailed the professor about the 30 extra minutes spent submitting
 
 Name: **Jordan Lee**
 
@@ -16,4 +17,4 @@ Comments, Concerns, Etc.
 - This took me longer than anticipated due to my job and other work
 - Quite the fun challenge, as well as a great way to learn more C.
 - Instructions/ Requirements for P3 was a little difficult to understand
-  - I didn't know if I needed to require edge case support for non-alpha characters
+  - I didn't know if I needed to require edge case support for non-alpha
