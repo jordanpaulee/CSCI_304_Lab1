@@ -1,19 +1,15 @@
 # CSCI 304 Lab 1
 Lab 1 Project in C for CSCI304 - Computer Organization
+Author: **Jordan Lee**
 
-### ! USING MY 4 SLIP DAYS !
-
-Name: **Jordan Lee**
-
-Time Spent on Lab (Est.):
-- Part 1: 60 minutes
-  - Spent learning gdb commands
-- Part 2: 30 minutes
-- Part 3: 3-5 Hours
-- Part 4: 2 Hours
-
-Comments, Concerns, Etc.
-- This took me longer than anticipated due to my job and other work
-- Quite the fun challenge, as well as a great way to learn more C.
-- Instructions/ Requirements for P3 was a little difficult to understand
-  - I didn't know if I needed to require edge case support for non-alpha characters
+This project served as an intro to the C language and included a study in 
+- GDB Debugging
+- Standard I/O
+- Arithmetic Statements
+- Conditional Structures
+- Looping Strucutres
+- File I/O
+- Strings
+- Pointers
+- Functions
+- Data Structures (Linked Lists)
